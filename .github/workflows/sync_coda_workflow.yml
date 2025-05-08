@@ -28,4 +28,4 @@ jobs:
           POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
           CODA_DOC_NAME: ${{ secrets.CODA_DOC_NAME }}
           CODA_TABLE_NAME: ${{ secrets.CODA_TABLE_NAME }}
-        run: python sync_coda.py
+        run: python main.py
